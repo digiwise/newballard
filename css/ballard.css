@@ -1,0 +1,163 @@
+body {
+	padding-top: 131px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+@media (max-width: 979px) {
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+      position: fixed;
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+}
+#results {
+	color: #ccc;
+  font-size: 270%
+}
+.row {
+  display: block;
+  margin-bottom: 5px;
+  height: auto;
+}
+.row .span8 {
+  display: inline-block;
+  width: 66px;
+  height: 66px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: none;
+}
+.row .span8.sinal {
+  width: 100%;
+  line-height: 40px;
+  height: auto;
+  vertical-align: middle;
+  background: #ccc;
+  margin:auto;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 150%;
+  float: none;
+}
+.row .span8.inactive {
+  display: none;
+  background: #ccc;
+}
+.row .countRow {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+  float: left;
+  margin-left: 0px;
+}
+.drawing {
+  width: 66px;
+  height: 45px;
+}
+.btActive {
+	background-color: #1AFFAE;
+}
+#postura_0 .drawing {
+  background-image: url('../img/postura_0.gif')
+}
+#postura_1 .drawing {
+  background-image: url('../img/postura_1.gif')
+}
+#postura_2 .drawing {
+  background-image: url('../img/postura_2.gif')
+}
+#postura_3 .drawing {
+  background-image: url('../img/postura_3.gif')
+}
+#postura_4 .drawing {
+  background-image: url('../img/postura_4.gif')
+}
+#ang_pulso_0 .drawing {
+  background-image: url('../img/ang_pulso0.gif')
+}
+#ang_pulso_1 .drawing {
+  background-image: url('../img/ang_pulso1.gif')
+}
+#ang_pulso_2 .drawing {
+  background-image: url('../img/ang_pulso2.gif')
+}
+#ang_pulso_3 .drawing {
+  background-image: url('../img/ang_pulso3.gif')
+}
+#ang_pulso_4 .drawing {
+  background-image: url('../img/ang_pulso4.gif')
+}
+#ret_braco_0 .drawing {
+  background-image: url('../img/ret_braco0.gif')
+}
+#ret_braco_1 .drawing {
+  background-image: url('../img/ret_braco1.gif')
+}
+#ret_braco_2 .drawing {
+  background-image: url('../img/ret_braco2.gif')
+}
+#ret_braco_3 .drawing {
+  background-image: url('../img/ret_braco3.gif')
+}
+#ret_braco_4 .drawing {
+  background-image: url('../img/ret_braco4.gif')
+}
+#ang_popliteo_-1 .drawing {
+  background-image: url('../img/ang_popliteo-1.gif')
+}
+#ang_popliteo_0 .drawing {
+  background-image: url('../img/ang_popliteo0.gif')
+}
+#ang_popliteo_1 .drawing {
+  background-image: url('../img/ang_popliteo1.gif')
+}
+#ang_popliteo_2 .drawing {
+  background-image: url('../img/ang_popliteo2.gif')
+}
+#ang_popliteo_3 .drawing {
+  background-image: url('../img/ang_popliteo3.gif')
+}
+#ang_popliteo_4 .drawing {
+  background-image: url('../img/ang_popliteo4.gif')
+}
+#ang_popliteo_5 .drawing {
+  background-image: url('../img/ang_popliteo5.gif')
+}
+#sinal_xale_-1 .drawing {
+  background-image: url('../img/sinal_xale-1.gif')
+}
+#sinal_xale_0 .drawing {
+  background-image: url('../img/sinal_xale0.gif')
+}
+#sinal_xale_1 .drawing {
+  background-image: url('../img/sinal_xale1.gif')
+}
+#sinal_xale_2 .drawing {
+  background-image: url('../img/sinal_xale2.gif')
+}
+#sinal_xale_3 .drawing {
+  background-image: url('../img/sinal_xale3.gif')
+}
+#sinal_xale_4 .drawing {
+  background-image: url('../img/sinal_xale4.gif')
+}
+#calcanhar_orelha_-1 .drawing {
+  background-image: url('../img/calcanhar_orelha-1.gif')
+}
+#calcanhar_orelha_0 .drawing {
+  background-image: url('../img/calcanhar_orelha0.gif')
+}
+#calcanhar_orelha_1 .drawing {
+  background-image: url('../img/calcanhar_orelha1.gif')
+}
+#calcanhar_orelha_2 .drawing {
+  background-image: url('../img/calcanhar_orelha2.gif')
+}
+#calcanhar_orelha_3 .drawing {
+  background-image: url('../img/calcanhar_orelha3.gif')
+}
+#calcanhar_orelha_4 .drawing {
+  background-image: url('../img/calcanhar_orelha4.gif')
+}
