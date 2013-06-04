@@ -7,168 +7,7 @@
 
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
-<style>
-	body {
-	    padding-top: 131px; /* 60px to make the container go all the way to the bottom of the topbar */
-	  }
-	@media (max-width: 979px) {
-	  .navbar-fixed-top,
-	  .navbar-fixed-bottom {
-	      position: fixed;
-	      margin-left: 0px;
-	      margin-right: 0px;
-	  }
-	}
-	#results {
-    color: #ccc;
-    font-size: 270%
-  }
-  .row {
-    display: block;
-    margin-bottom: 5px;
-    height: auto;
-  }
-  .row .span8 {
-    display: inline-block;
-    width: 66px;
-    height: 66px;
-    text-align: center;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    float: none;
-  }
-  .row .span8.sinal {
-    width: 100%;
-    line-height: 40px;
-    height: auto;
-    vertical-align: middle;
-    background: #ccc;
-    margin:auto;
-    text-align: left;
-    padding-left: 15px;
-    font-size: 150%;
-    float: none;
-  }
-  .row .span8.inactive {
-    display: none;
-    background: #ccc;
-  }
-  .row .countRow {
-    width: 100%;
-    text-align: center;
-    height: auto;
-  }
-  [class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
-    float: left;
-    margin-left: 0px;
-  }
-  .drawing {
-    width: 66px;
-    height: 45px;
-  }
-  #postura0 .drawing {
-    background-image: url('img/postura0.gif')
-  }
-  #postura1 .drawing {
-    background-image: url('img/postura1.gif')
-  }
-  #postura2 .drawing {
-    background-image: url('img/postura2.gif')
-  }
-  #postura3 .drawing {
-    background-image: url('img/postura3.gif')
-  }
-  #postura4 .drawing {
-    background-image: url('img/postura4.gif')
-  }
-  #ang_pulso0 .drawing {
-    background-image: url('img/ang_pulso0.gif')
-  }
-  #ang_pulso1 .drawing {
-    background-image: url('img/ang_pulso1.gif')
-  }
-  #ang_pulso2 .drawing {
-    background-image: url('img/ang_pulso2.gif')
-  }
-  #ang_pulso3 .drawing {
-    background-image: url('img/ang_pulso3.gif')
-  }
-  #ang_pulso4 .drawing {
-    background-image: url('img/ang_pulso4.gif')
-  }
-  #ret_braco0 .drawing {
-    background-image: url('img/ret_braco0.gif')
-  }
-  #ret_braco1 .drawing {
-    background-image: url('img/ret_braco1.gif')
-  }
-  #ret_braco2 .drawing {
-    background-image: url('img/ret_braco2.gif')
-  }
-  #ret_braco3 .drawing {
-    background-image: url('img/ret_braco3.gif')
-  }
-  #ret_braco4 .drawing {
-    background-image: url('img/ret_braco4.gif')
-  }
-  #ang_popliteo-1 .drawing {
-    background-image: url('img/ang_popliteo-1.gif')
-  }
-  #ang_popliteo0 .drawing {
-    background-image: url('img/ang_popliteo0.gif')
-  }
-  #ang_popliteo1 .drawing {
-    background-image: url('img/ang_popliteo1.gif')
-  }
-  #ang_popliteo2 .drawing {
-    background-image: url('img/ang_popliteo2.gif')
-  }
-  #ang_popliteo3 .drawing {
-    background-image: url('img/ang_popliteo3.gif')
-  }
-  #ang_popliteo4 .drawing {
-    background-image: url('img/ang_popliteo4.gif')
-  }
-  #ang_popliteo5 .drawing {
-    background-image: url('img/ang_popliteo5.gif')
-  }
-  #sinal_xale-1 .drawing {
-    background-image: url('img/sinal_xale-1.gif')
-  }
-  #sinal_xale0 .drawing {
-    background-image: url('img/sinal_xale0.gif')
-  }
-  #sinal_xale1 .drawing {
-    background-image: url('img/sinal_xale1.gif')
-  }
-  #sinal_xale2 .drawing {
-    background-image: url('img/sinal_xale2.gif')
-  }
-  #sinal_xale3 .drawing {
-    background-image: url('img/sinal_xale3.gif')
-  }
-  #sinal_xale4 .drawing {
-    background-image: url('img/sinal_xale4.gif')
-  }
-  #calcanhar_orelha-1 .drawing {
-    background-image: url('img/calcanhar_orelha-1.gif')
-  }
-  #calcanhar_orelha0 .drawing {
-    background-image: url('img/calcanhar_orelha0.gif')
-  }
-  #calcanhar_orelha1 .drawing {
-    background-image: url('img/calcanhar_orelha1.gif')
-  }
-  #calcanhar_orelha2 .drawing {
-    background-image: url('img/calcanhar_orelha2.gif')
-  }
-  #calcanhar_orelha3 .drawing {
-    background-image: url('img/calcanhar_orelha3.gif')
-  }
-  #calcanhar_orelha4 .drawing {
-    background-image: url('img/calcanhar_orelha4.gif')
-  }
-</style>
+<link href="css/ballard.css" rel="stylesheet">
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
@@ -212,43 +51,43 @@
     </div>
 	  <div class="countRow">
 	    <div class="span8 inactive">
-	      <div id="postura-1">
+	      <div id="postura_-1" score="-1">
 		      <div class="drawing"></div>
 		      <div class="count">-1</div>
 		    </div>
 	    </div>
 	    <div class="span8">
-	      <div id="postura0">
+	      <div id="postura_0" score="0">
 	        <div class="drawing"></div>
 	        <div class="count">0</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="postura1">
+	      <div id="postura_1" score="1">
 	        <div class="drawing"></div>
 	        <div class="count">1</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="postura2">
+	      <div id="postura_2" score="2">
 	        <div class="drawing"></div>
 	        <div class="count">2</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="postura3">
+	      <div id="postura_3" score="3">
 	        <div class="drawing"></div>
 	        <div class="count">3</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="postura4">
+	      <div id="postura_4" score="4">
 	        <div class="drawing"></div>
 	        <div class="count">4</div>
 	      </div>
 	    </div>
 	    <div class="span8 inactive">
-	      <div id="postura5">
+	      <div id="postura_5" score="5">
 	        <div class="drawing"></div>
 	        <div class="count">5</div>
 	      </div>
@@ -261,43 +100,43 @@
     </div>
 	  <div class="countRow">
 	    <div class="span8 inactive">
-	      <div id="ang_pulso-1">
+	      <div id="ang_pulso_-1" score="-1">
 	        <div class="drawing"></div>
 	        <div class="count">-1</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="ang_pulso0">
+	      <div id="ang_pulso_0" score="0">
 	        <div class="drawing"></div>
 	        <div class="count">0</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="ang_pulso1">
+	      <div id="ang_pulso_1" score="1">
 	        <div class="drawing"></div>
 	        <div class="count">1</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="ang_pulso2">
+	      <div id="ang_pulso_2" score="2">
 	        <div class="drawing"></div>
 	        <div class="count">2</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="ang_pulso3">
+	      <div id="ang_pulso_3" score="3">
 	        <div class="drawing"></div>
 	        <div class="count">3</div>
 	      </div>
 	    </div>
 	    <div class="span8">
-	      <div id="ang_pulso4">
+	      <div id="ang_pulso_4" score="4">
 	        <div class="drawing"></div>
 	        <div class="count">4</div>
 	      </div>
 	    </div>
 	    <div class="span8 inactive">
-	      <div id="ang_pulso5">
+	      <div id="ang_pulso_5" score="5">
 	        <div class="drawing"></div>
 	        <div class="count">5</div>
 	      </div>
@@ -310,43 +149,43 @@
     </div>
     <div class="countRow">
       <div class="span8 inactive">
-        <div id="ret_braco-1">
+        <div id="ret_braco_-1" score="-1">
           <div class="drawing"></div>
           <div class="count">-1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ret_braco0">
+        <div id="ret_braco_0" score="0">
           <div class="drawing"></div>
           <div class="count">0</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ret_braco1">
+        <div id="ret_braco_1" score="1">
           <div class="drawing"></div>
           <div class="count">1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ret_braco2">
+        <div id="ret_braco_2" score="2">
           <div class="drawing"></div>
           <div class="count">2</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ret_braco3">
+        <div id="ret_braco_3" score="3">
           <div class="drawing"></div>
           <div class="count">3</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ret_braco4">
+        <div id="ret_braco_4" score="4">
           <div class="drawing"></div>
           <div class="count">4</div>
         </div>
       </div>
       <div class="span8 inactive">
-        <div id="ret_braco5">
+        <div id="ret_braco_5" score="5">
           <div class="drawing"></div>
           <div class="count">5</div>
         </div>
@@ -359,43 +198,43 @@
     </div>
     <div class="countRow">
       <div class="span8">
-        <div id="ang_popliteo-1">
+        <div id="ang_popliteo_-1" score="-1">
           <div class="drawing"></div>
           <div class="count">-1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ang_popliteo0">
+        <div id="ang_popliteo_0" score="0">
           <div class="drawing"></div>
           <div class="count">0</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ang_popliteo1">
+        <div id="ang_popliteo_1" score="1">
           <div class="drawing"></div>
           <div class="count">1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ang_popliteo2">
+        <div id="ang_popliteo_2" score="2">
           <div class="drawing"></div>
           <div class="count">2</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ang_popliteo3">
+        <div id="ang_popliteo_3" score="3">
           <div class="drawing"></div>
           <div class="count">3</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ang_popliteo4">
+        <div id="ang_popliteo_4" score="4">
           <div class="drawing"></div>
           <div class="count">4</div>
         </div>
       </div>
       <div class="span8">
-        <div id="ang_popliteo5">
+        <div id="ang_popliteo_5" score="5">
           <div class="drawing"></div>
           <div class="count">5</div>
         </div>
@@ -408,43 +247,43 @@
     </div>
     <div class="countRow">
       <div class="span8">
-        <div id="sinal_xale-1">
+        <div id="sinal_xale_-1" score="-1">
           <div class="drawing"></div>
           <div class="count">-1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="sinal_xale0">
+        <div id="sinal_xale_0" score="0">
           <div class="drawing"></div>
           <div class="count">0</div>
         </div>
       </div>
       <div class="span8">
-        <div id="sinal_xale1">
+        <div id="sinal_xale_1" score="1">
           <div class="drawing"></div>
           <div class="count">1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="sinal_xale2">
+        <div id="sinal_xale_2" score="2">
           <div class="drawing"></div>
           <div class="count">2</div>
         </div>
       </div>
       <div class="span8">
-        <div id="sinal_xale3">
+        <div id="sinal_xale_3" score="3">
           <div class="drawing"></div>
           <div class="count">3</div>
         </div>
       </div>
       <div class="span8">
-        <div id="sinal_xale4">
+        <div id="sinal_xale_4" score="4">
           <div class="drawing"></div>
           <div class="count">4</div>
         </div>
       </div>
       <div class="span8 inactive">
-        <div id="sinal_xale5">
+        <div id="sinal_xale_5" score="5">
           <div class="drawing"></div>
           <div class="count">5</div>
         </div>
@@ -457,43 +296,43 @@
     </div>
     <div class="countRow">
       <div class="span8">
-        <div id="calcanhar_orelha-1">
+        <div id="calcanhar_orelha_-1" score="-1">
           <div class="drawing"></div>
           <div class="count">-1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="calcanhar_orelha0">
+        <div id="calcanhar_orelha_0" score="0">
           <div class="drawing"></div>
           <div class="count">0</div>
         </div>
       </div>
       <div class="span8">
-        <div id="calcanhar_orelha1">
+        <div id="calcanhar_orelha_1" score="1">
           <div class="drawing"></div>
           <div class="count">1</div>
         </div>
       </div>
       <div class="span8">
-        <div id="calcanhar_orelha2">
+        <div id="calcanhar_orelha_2" score="2">
           <div class="drawing"></div>
           <div class="count">2</div>
         </div>
       </div>
       <div class="span8">
-        <div id="calcanhar_orelha3">
+        <div id="calcanhar_orelha_3" score="3">
           <div class="drawing"></div>
           <div class="count">3</div>
         </div>
       </div>
       <div class="span8">
-        <div id="calcanhar_orelha4">
+        <div id="calcanhar_orelha_4" score="4">
           <div class="drawing"></div>
           <div class="count">4</div>
         </div>
       </div>
       <div class="span8 inactive">
-        <div id="calcanhar_orelha5">
+        <div id="calcanhar_orelha_5" score="5">
           <div class="drawing"></div>
           <div class="count">5</div>
         </div>
@@ -504,5 +343,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/ballard.js"></script>
 </body>
 </html>
