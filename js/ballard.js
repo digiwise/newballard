@@ -19,7 +19,7 @@ var scoresControle = {
 var controleSoma = new Array();
 
 for (score in scores) {
-	for (var i = -1; i < 6; i++) {
+	for (var i = -2; i < 6; i++) {
 		try {
 			$('#'+score+'_'+i).attr('rel', String(score));
 			$('#'+score+'_'+i).click(function() {
@@ -37,7 +37,7 @@ for (score in scores) {
 
 function uncheckRow(idPrefix){
 	try{
-		for (var i = -1; i < 6; i++) {
+		for (var i = -2; i < 6; i++) {
 			$('#'+idPrefix+'_'+i).removeClass('btActive');
 		}
 	}catch (e) {
