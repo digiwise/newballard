@@ -93,6 +93,7 @@ body {
 .char-description {
 	position: relative;
 	vertical-align: middle;
+	text-wrap: suppress;
 }
 .btActive {
 	background-color: #24FFE2;
